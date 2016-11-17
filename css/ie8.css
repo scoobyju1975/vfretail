@@ -1,0 +1,74 @@
+.wrapper {
+    margin: 0px;
+}
+.c-hamburger{
+	background-image:url(../images/hamburguer.png); 
+	background-position:center; 
+}
+.menu-btn .c-hamburger span{ 
+    display: none !important;
+}
+.menu-btn .c-hamburger--htx.is-active{
+     background-image:url(../images/hamburguer_close.png); 
+	background-position:center; 
+}
+
+#disco{
+    width: 576px;
+    height: 579px;
+	background-image:url(../images/revised-circle-center_ie8.png) !important;
+    
+}
+.circle-text {
+background-image:url(../images/circle_goals_ie8.png)  !important;
+background-size: cover;
+width: 150px;
+height:150px;
+display: table;
+margin-bottom: 20px;
+
+}
+.header .left-col {
+ 
+margin-left:0px !important;
+}
+/* vodafone rhombus */
+
+.rhombus{
+display: none;
+}
+.logo{
+display: none;
+}
+#ielogo{
+    display: block;
+    position: absolute;
+    top:-20px;
+    left:-400px;
+    
+}
+
+.menu-wrapper ul li.menu-item-has-children>a {
+    background-image: url(../images/children_arrow_50.png);
+}
+.menu-wrapper ul li.menu-item-has-children>a:hover {
+    background-image: url(../images/children_arrow_hover_50.png);
+}
+.menu-wrapper ul li.back-btn>a {
+    background-image: url(../images/back_arrow_50.png);
+}
+.menu-wrapper ul li.back-btn>a:hover {
+    background-image: url(../images/back_arrow_hover_50.png);
+}
+.menu-wrapper ul li.current_page_ancestor>a {
+    background-image: url(../images/children_arrow_50.png);
+}
+.menu-wrapper ul li.current_page_ancestor>a:hover {
+    background-image: url(../images/children_arrow_hover_50.png);
+}
+.menu-wrapper ul li.current_page_item.menu-item-has-children>a {
+    background-image: url(../images/children_arrow_50.png);
+}
+.menu-wrapper ul li.current_page_item.menu-item-has-children>a:hover {
+    background-image: url(../images/children_arrow_hover_50.png);
+}
